@@ -26,7 +26,7 @@
                 </div>
                 <div class="col">
                     <div class="input-group rounded-1" style="background-color: #E5E5E5;">
-                        <input type="text" class="form-control border-0"
+                        <input type="search" name="search" class="form-control border-0"
                             placeholder="Prova a cercare: Lezioni di Laravel">
                     </div>
                 </div>
@@ -60,7 +60,28 @@
     <!-- /Header -->
     <!-- Main -->
     <main>
-        <div id="sidebar"></div>
+        <div id="sidebar" class="flex-shrink-0">
+            <ul class="list-unstyled text-white d-flex flex-column vh-100 p-3 mb-0">
+                <li class="p-lg-2">
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="d-none d-lg-inline ps-1">Home</span>
+                    </a>
+                </li>
+                <li class="p-lg-2">
+                    <a href="#">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span class="d-none d-lg-inline ps-1">Stats</span>
+                    </a>
+                </li>
+                <li class="p-lg-2">
+                    <a href="#">
+                        <i class="fa-solid fa-signal"></i>
+                        <span class="d-none d-lg-inline ps-1">Signals</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div id="all_main">
             <div id="top_main"></div>
             <div id="left_main"></div>

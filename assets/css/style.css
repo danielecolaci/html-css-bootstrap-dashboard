@@ -1,8 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F8F9FA;
+    background-color: #959697;
+}
+
+a {
+    text-decoration: none;
 }
 
 header a {
     color: #5B5858;
+}
+
+#sidebar {
+    background-color: #0D253A;
+    width: 10%;
 }
