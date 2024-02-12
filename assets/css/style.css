@@ -1,9 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #F8F9FA;
+}
+
+header a {
+    color: #5B5858;
 }
