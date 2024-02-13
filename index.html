@@ -112,10 +112,10 @@
                                         <thead>
                                             <tr>
                                                 <th class="col-6">Nome</th>
-                                                <th class="text-center col-md-2">Data inizio</th>
-                                                <th class="text-center col-md-2">ROI</th>
-                                                <th class="text-center col-md-2">Stato</th>
-                                                <th class="text-center col-md-2">Azioni</th>
+                                                <th class="text-center d-none d-md-table-cell">ROI</th>
+                                                <th class="text-center d-none d-md-table-cell">Data inizio</th>
+                                                <th class="text-center">Stato</th>
+                                                <th class="text-center">Azioni</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -126,10 +126,19 @@
                                                     </div>
                                                     <span>Classe 119</span>
                                                 </th>
-                                                <td class="text-center">10 Gen 2024</td>
-                                                <td class="text-center">20%</td>
-                                                <td class="text-center">done</td>
-                                                <td class="text-center">button</td>
+                                                <td class="text-center d-none d-md-table-cell">10 Gen 2024</td>
+                                                <td class="text-center d-none d-md-table-cell">20%</td>
+                                                <td class="text-center">
+                                                    <span class="badge bg-success">done</span>
+                                                </td>
+                                                <td class="d-flex gap-2 justify-content-center">
+                                                    <button class="bg-white rounded-1 shadow-none">
+                                                        <i class="fa-solid fa-pencil"></i>
+                                                    </button>
+                                                    <button class="bg-white rounded-1 shadow-none">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </button>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
