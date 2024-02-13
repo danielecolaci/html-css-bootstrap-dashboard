@@ -64,6 +64,7 @@
     <!-- Main -->
     <main>
         <div id="wrapper" class="d-flex">
+            <!-- Sidebar -->
             <div id="sidebar" class="flex-shrink-0">
                 <ul class="list-unstyled text-white d-flex flex-column p-3 mb-0 h-100">
                     <li class="p-2 text-center">
@@ -92,37 +93,59 @@
                     </li>
                 </ul>
             </div>
-            <div id="all_main" class="flex-grow-1 container-fluid">
+            <!-- /Sidebar -->
+            <div id="all_main" class="flex-grow-1">
+                <!-- Banner -->
                 <div id="top_main"></div>
-                <div class="container-fluid d-flex flex-column flex-lg-row">
-                    <!-- Left Main -->
-                    <div id="left_main" class="row">
-
-                        <div class="col-12">
-                            <div class="card">
+                <!-- /Banner -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Left Main -->
+                        <div class="col-12 col-xl-8" id="left_main">
+                            <!-- Table -->
+                            <div class="card m-2" id="class-table">
                                 <div class="card-header">
                                     <h5>Prossime classi</h5>
                                 </div>
                                 <div class="card-body">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="card"></div>
-                        </div>
-
-                    </div>
-                    <!-- /Left Main -->
-                    <!-- Right Main -->
-                    <div id="right_main">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="card debug"></div>
+                            <!-- /Table -->
+                            <!-- Faq -->
+                            <div class="card m-2" id="faq">
+                                <div class="card-header">
+                                    <h5>F.A.Q.</h5>
+                                </div>
+                                <div class="card-body">
+                                </div>
                             </div>
-                            <div class="col-12">
-                                <div class="card debug"></div>
-                            </div>
+                            <!-- /Faq -->
                         </div>
+                        <!-- /Left Main -->
+                        <!-- Right Main -->
+                        <div class="col-12 col-xl-4" id="right_main">
+                            <!-- Todo -->
+                            <div class="card m-2" id="todo">
+                                <div class="card-header">
+                                    <h5>Todo</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card"></div>
+                                </div>
+                            </div>
+                            <!-- /Todo -->
+                            <!-- Utenti -->
+                            <div class="card m-2" id="utenti">
+                                <div class="card-header">
+                                    <h5>Utenti Attivi</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card"></div>
+                                </div>
+                            </div>
+                            <!-- /Utenti -->
+                        </div>
+                        <!-- /Right Main -->
                     </div>
                 </div>
             </div>
