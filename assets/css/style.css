@@ -1,10 +1,6 @@
-body {
+#body {
     font-family: 'Roboto', sans-serif;
-    background-color: #959697;
-}
-
-a {
-    text-decoration: none;
+    background-color: #F7F7F7;
 }
 
 header a {
@@ -14,4 +10,34 @@ header a {
 #sidebar {
     background-color: #0D253A;
     width: 10%;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Debug */
+
+#all_main {
+    width: 100%;
+    height: 100%;
+}
+
+#top_main {
+    height: 100px;
+    width: 100%;
+}
+
+.debug {
+    height: 100px;
+    width: 100px;
+}
+
+/* /Debug */
+
+#top_main {
+    background-color: #1B72E8;
+    color: white;
 }
