@@ -49,6 +49,11 @@ header a {
     border-radius: 50%;
 }
 
+#btn-canvas {
+    border: 1px solid white;
+    color: white;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 992px) {
