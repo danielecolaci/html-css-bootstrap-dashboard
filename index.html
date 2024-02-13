@@ -63,9 +63,9 @@
     <!-- /Header -->
     <!-- Main -->
     <main>
-        <div class="d-flex">
+        <div id="wrapper" class="d-flex">
             <div id="sidebar" class="flex-shrink-0">
-                <ul class="list-unstyled text-white d-flex flex-column vh-100 p-3 mb-0">
+                <ul class="list-unstyled text-white d-flex flex-column p-3 mb-0 h-100">
                     <li class="p-lg-2">
                         <a href="#">
                             <i class="fa-solid fa-house"></i>
@@ -92,19 +92,28 @@
                     </li>
                 </ul>
             </div>
-            <div id="all_main">
-                <div id="top_main" class="debug"></div>
-                <div class="d-flex flex-column flex-lg-row">
-                    <div id="left_main">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="card debug"></div>
-                            </div>
-                            <div class="col-12">
-                                <div class="card debug"></div>
+            <div id="all_main" class="flex-grow-1 container-fluid">
+                <div id="top_main"></div>
+                <div class="container-fluid d-flex flex-column flex-lg-row">
+                    <!-- Left Main -->
+                    <div id="left_main" class="row">
+
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Prossime classi</h5>
+                                </div>
+                                <div class="card-body">
+                                </div>
                             </div>
                         </div>
+                        <div class="col-12">
+                            <div class="card"></div>
+                        </div>
+
                     </div>
+                    <!-- /Left Main -->
+                    <!-- Right Main -->
                     <div id="right_main">
                         <div class="row">
                             <div class="col-12">

@@ -9,8 +9,12 @@ header a {
 
 #sidebar {
     background-color: #0D253A;
-    width: 10%;
+    width: 150px;
     background-image: url(../img/sidebar-bg.png);
+}
+
+#wrapper {
+    height: 100%;
 }
 
 #sidebar a {
@@ -30,14 +34,21 @@ header a {
     width: 100%;
 }
 
-.debug {
-    height: 100px;
-    width: 100px;
-}
+/* * {
+    border: 1px dashed;
+} */
 
 /* /Debug */
 
 #top_main {
     background-color: #1B72E8;
     color: white;
+}
+
+#all_main {
+    overflow-y: auto;
+}
+
+#wrapper {
+    height: calc(100vh - 68px);
 }
